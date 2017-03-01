@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, "fdsfd", Toast.LENGTH_SHORT).show();
                 break;
         }
+
         return super.onOptionsItemSelected(item);
     }
 }
