@@ -51,11 +51,11 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-       switch (id){
-           case R.id.action_settings:
-               Toast.makeText(this, "fdsfd", Toast.LENGTH_SHORT).show();
-               break;
-       }
+        switch (id){
+            case R.id.action_settings:
+                Toast.makeText(this, "fdsfd", Toast.LENGTH_SHORT).show();
+                break;
+        }
         return super.onOptionsItemSelected(item);
     }
 }
